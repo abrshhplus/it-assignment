@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Assignment Website</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>My Assignment</h1>
+    <p>Welcome to my website for the school assignment.</p>
+
+    <h2>Table Example</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Grade</th>
+            <th>Subject</th>
+        </tr>
+        <tr>
+            <td>Abraham</td>
+            <td>A</td>
+            <td>Math</td>
+        </tr>
+        <tr>
+            <td>Lidiya</td>
+            <td>B</td>
+            <td>Chemistry</td>
+        </tr>
+    </table>
+
+    <h2>Student Form</h2>
+    <form>
+        Name: <input type="text" name="name"><br><br>
+        Grade: <input type="text" name="grade"><br><br>
+        Subject: <input type="text" name="subject"><br><br>
+        Comment: <textarea name="comment"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
